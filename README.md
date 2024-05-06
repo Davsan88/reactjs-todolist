@@ -9,6 +9,6 @@ Transitioning from building static websites with HTML and CSS to developing dyna
 * Components can be as small as a button or as large as an entire page. Typically, you write components in files such as TodoCard.jsx, TodoInput.jsx, and TodoList.jsx.
 
 ### 2. JSX:
-*JSX is a syntax extension for JavaScript that looks similar to HTML. It's used in React to describe what the UI should look like. Each React component will typically return JSX code that defines a portion of the UI.
+* JSX is a syntax extension for JavaScript that looks similar to HTML. It's used in React to describe what the UI should look like. Each React component will typically return JSX code that defines a portion of the UI.
 
-*JSX allows you to write HTML-like code in your JavaScript, making it easier to create and manage complex UIs.
+* JSX allows you to write HTML-like code in your JavaScript, making it easier to create and manage complex UIs.
