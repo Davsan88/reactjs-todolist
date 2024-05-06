@@ -42,3 +42,10 @@ ReactDOM.render(
   document.getElementById('root')
 );
 ```
+
+### Key Functions
+
+- **Imports**: Necessary libraries and the root component (`App.jsx`) are imported.
+- **ReactDOM.render()**: This function takes the App component and mounts it to the div with id='root' found in index.html.
+- **React.StrictMode**: A tool for highlighting potential problems in an application. It does not render any visible UI but activates additional checks and warnings for its descendants.
+
