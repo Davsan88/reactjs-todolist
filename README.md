@@ -23,3 +23,22 @@ Transitioning from building static websites with HTML and CSS to developing dyna
 - **index.html**: This is the main HTML file of a React app. It includes a div element with an id of `root`, which serves as the attachment point for the React app.
 - **main.jsx/index.js**: Serves as the entry point for React applications. It's where the React app begins execution by rendering the App component into the DOM.
 - **App.jsx**: Often acts as the central component that orchestrates the assembly of the entire application by including other components like TodoList, TodoInput, etc.
+
+## Detailed Explanation of main.jsx
+
+### Purpose of main.jsx
+
+`main.jsx` is critical as it initializes and renders the React application to the DOM:
+
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+```
