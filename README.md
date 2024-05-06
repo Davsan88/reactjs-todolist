@@ -6,9 +6,14 @@ Transitioning from building static websites with HTML and CSS to developing dyna
 ### 1. Components:
 * React applications are built using components. These components are reusable and independent pieces of code that represent a part of the user interface (UI). Each component can have its own layout (HTML), styling (CSS), and behavior (JavaScript).
 
-* Components can be as small as a button or as large as an entire page. Typically, you write components in files such as TodoCard.jsx, TodoInput.jsx, and TodoList.jsx.
+* Components can be as small as a button or as large as an entire page. Typically, you write components in files such as `TodoCard.jsx`, `TodoInput.jsx`, and `TodoList.jsx`.
 
 ### 2. JSX:
 * JSX is a syntax extension for JavaScript that looks similar to HTML. It's used in React to describe what the UI should look like. Each React component will typically return JSX code that defines a portion of the UI.
 
 * JSX allows you to write HTML-like code in your JavaScript, making it easier to create and manage complex UIs.
+
+### 3. Props and State:
+* **Props** (short for properties) are a way of passing data from parent to child components. It’s how components communicate with each other.
+
+* **State** is a way to manage changes in data within a component. When the state of a component changes, the component re-renders to reflect those changes.
