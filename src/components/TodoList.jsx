@@ -13,7 +13,7 @@ export default function TodoList() {
       {todos.map((todo, todoIndex) => {
         return (
           <TodoCard key={todoIndex}>
-
+            <p>{todo}</p>
           </TodoCard>
         )
       })}
