@@ -49,3 +49,24 @@ ReactDOM.render(
 - **ReactDOM.render()**: This function takes the App component and mounts it to the div with id='root' found in index.html.
 - **React.StrictMode**: A tool for highlighting potential problems in an application. It does not render any visible UI but activates additional checks and warnings for its descendants.
 
+## How Components Interact
+
+### App Component
+
+Serves as the composition root, orchestrating other components and their interactions.
+
+```jsx
+import TodoList from './components/TodoList';
+import TodoInput from './components/TodoInput';
+
+function App() {
+  return (
+    <div>
+      <h1>My Todo App</h1>
+      <TodoInput />
+      <TodoList />
+    </div>
+  );
+}
+```
+
