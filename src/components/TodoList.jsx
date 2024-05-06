@@ -8,13 +8,16 @@ export default function TodoList() {
   ]
 
   return (
-      <ul className='main'>
-        {todos.map((todo, todoIndex) => {
-          return (
-            <li className='todoItem' key={todoIndex}>{todo}</li>
-          )
-        })}
+    <ul className='main'>
+      {todos.map((todo, todoIndex) => {
+        return (
+          <li className='todoItem' key={todoIndex}>
+            {todo}
+            <i class="fa-solid fa-pen-to-square"></i>
+          </li>
+        )
+      })}
 
-      </ul>
+    </ul>
   )
 }
