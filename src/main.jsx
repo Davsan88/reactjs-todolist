@@ -7,6 +7,6 @@ import './index.css'                        // Importing the CSS file for stylin
 // Rendering the React application into the root DOM element
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <App />  {/* Wrapping the App component in React.StrictMode to highlight potential problems in the app */}
   </React.StrictMode>,
 )
