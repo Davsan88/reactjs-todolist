@@ -1,4 +1,4 @@
-import { useState } from "react"
+import { useState } from "react" // Importing useState from React to manage state in the component
 import TodoInput from "./components/TodoInput"
 import TodoList from "./components/TodoList"
 
