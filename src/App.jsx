@@ -17,7 +17,10 @@ function App() {
   // Returning the JSX that renders the TodoInput and TodoList components
   return (
     <>
+      {/* Passing the handleAddTodos function to the TodoInput component as a prop */}
       <TodoInput handleAddTodos={handleAddTodos}/>
+
+      {/* Passing the todos state to the TodoList component as a prop */}
       <TodoList todos={todos} />
     </>
   )
