@@ -14,6 +14,7 @@ function App() {
     setTodos(newTodoList)
   }
 
+  // Returning the JSX that renders the TodoInput and TodoList components
   return (
     <>
       <TodoInput handleAddTodos={handleAddTodos}/>
