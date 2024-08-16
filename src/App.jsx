@@ -1,6 +1,6 @@
-import { useState } from "react" // Importing useState from React to manage state in the component
-import TodoInput from "./components/TodoInput" // Importing the TodoInput componen
-import TodoList from "./components/TodoList" // Importing the TodoList component
+import { useState } from "react"  // Importing useState from React to manage state in the component
+import TodoInput from "./components/TodoInput"  // Importing the TodoInput componen
+import TodoList from "./components/TodoList"  // Importing the TodoList component
 
 function App() {
   // Declaring a state variable 'todos' to store the list of todos and a setter function 'setTodos' to update it
@@ -8,10 +8,8 @@ function App() {
 
   // Function to handle adding a new todo item
   function handleAddTodos(newTodo) {
-    // Creating a new list of todos by combining the existing todos with the new todo item
-    const newTodoList = [...todos, newTodo]
-    // Updating the state with the new list of todos
-    setTodos(newTodoList)
+    const newTodoList = [...todos, newTodo]  // Creating a new list of todos by combining the existing todos with the new todo item
+    setTodos(newTodoList)  // Updating the state with the new list of todos
   }
 
   // Returning the JSX that renders the TodoInput and TodoList components
