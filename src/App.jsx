@@ -6,6 +6,7 @@ function App() {
   // Declaring a state variable 'todos' to store the list of todos and a setter function 'setTodos' to update it
   const [todos, setTodos] = useState([]) 
 
+  // Function to handle adding a new todo item
   function handleAddTodos(newTodo) {
     const newTodoList = [...todos, newTodo]
     setTodos(newTodoList)
