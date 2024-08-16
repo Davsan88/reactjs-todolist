@@ -8,6 +8,7 @@ function App() {
 
   // Function to handle adding a new todo item
   function handleAddTodos(newTodo) {
+    // Creating a new list of todos by combining the existing todos with the new todo item
     const newTodoList = [...todos, newTodo]
     setTodos(newTodoList)
   }
