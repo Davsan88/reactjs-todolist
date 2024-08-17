@@ -5,7 +5,7 @@ export default function TodoList(props) {
   // Destructuring the 'todos' array from the props passed to this component
   const {todos} = props
 
-
+  // Returning the JSX to render the list of todos
   return (
     <ul className='main'>
       {todos.map((todo, todoIndex) => {
