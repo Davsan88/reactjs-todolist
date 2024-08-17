@@ -13,6 +13,7 @@ export default function TodoList(props) {
         return (
           // Each TodoCard component represents a single todo item
           <TodoCard key={todoIndex}>
+            {/* Displaying the todo text inside a <p> element */}
             <p>{todo}</p>
           </TodoCard>
         )
