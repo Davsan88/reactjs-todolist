@@ -11,6 +11,7 @@ export default function TodoList(props) {
       {/* Mapping over the todos array and rendering a TodoCard for each todo */}
       {todos.map((todo, todoIndex) => {
         return (
+          // Each TodoCard component represents a single todo item
           <TodoCard key={todoIndex}>
             <p>{todo}</p>
           </TodoCard>
