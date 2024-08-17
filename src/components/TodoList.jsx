@@ -1,5 +1,5 @@
-import React from 'react'
-import TodoCard from './TodoCard'
+import React from 'react'               // Importing React library
+import TodoCard from './TodoCard'       // Importing the TodoCard component
 
 export default function TodoList(props) {
   const {todos} = props
