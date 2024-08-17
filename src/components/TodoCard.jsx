@@ -8,10 +8,12 @@ export default function TodoCard(props) {
     <li className='todoItem'>
       {/* Rendering the children elements passed to this component */}
       {children}
-      
+
+      {/* Container for action icons (edit and delete) */}
       <div className='actionsContainer'>
-        <i className="fa-solid fa-pen-to-square"></i>
-        <i className="fa-solid fa-trash"></i>
+        {/* Font Awesome icons for editing and deleting */}
+        <i className="fa-solid fa-pen-to-square"></i>  {/* Edit icon */}
+        <i className="fa-solid fa-trash"></i>  {/* Delete icon */}
       </div>
     </li>
   )
