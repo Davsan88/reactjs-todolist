@@ -16,8 +16,8 @@ export default function TodoInput(props) {
             {/* Button to add the todo item, calls handleAddTodos with the current value and then clears the input */}
             <button 
                 onClick={() => {
-                    handleAddTodos(todoValue)
-                    setTodoValue('')
+                    handleAddTodos(todoValue)  // Add the current todo to the list
+                    setTodoValue('')  // Clear the input field
                 }}
             >
                 Add
