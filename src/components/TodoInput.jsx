@@ -1,6 +1,7 @@
 import { useState } from "react"  // Importing useState from React to manage state in the component
 
 export default function TodoInput(props) {
+    // Destructuring the handleAddTodos function from the props passed to this component
     const {handleAddTodos} = props
     const [todoValue, setTodoValue] = useState('')
 
