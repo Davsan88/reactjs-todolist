@@ -3,9 +3,12 @@ import React from 'react'  // Importing the React library
 export default function TodoCard(props) {
   // Destructuring the 'children' prop from the props passed to this component
   const {children} = props
+
   return (
     <li className='todoItem'>
+      {/* Rendering the children elements passed to this component */}
       {children}
+      
       <div className='actionsContainer'>
         <i className="fa-solid fa-pen-to-square"></i>
         <i className="fa-solid fa-trash"></i>
