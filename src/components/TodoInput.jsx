@@ -9,9 +9,10 @@ export default function TodoInput(props) {
     return (
         <header>
             {/* Input field to enter the todo item, with value controlled by state */}
-            <input value={todoValue} onChange={(e) => {
-                setTodoValue(e.target.value)
-            }} placeholder="Enter todo..."/>
+            <input 
+                value={todoValue} 
+                onChange={(e) => setTodoValue(e.target.value)} placeholder="Enter todo..."
+            />
             <button onClick={() => {
                 handleAddTodos(todoValue)
                 setTodoValue('')
