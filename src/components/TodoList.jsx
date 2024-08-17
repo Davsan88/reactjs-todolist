@@ -8,6 +8,7 @@ export default function TodoList(props) {
   // Returning the JSX to render the list of todos
   return (
     <ul className='main'>
+       {/* Mapping over the todos array and rendering a TodoCard for each todo */}
       {todos.map((todo, todoIndex) => {
         return (
           <TodoCard key={todoIndex}>
